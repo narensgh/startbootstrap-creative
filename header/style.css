@@ -1,0 +1,110 @@
+body {
+    background: #f2f2f2 none repeat scroll 0 0;
+    color: #aaa;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.header_back {
+    background: rgba(0, 0, 0, 0) url("images/header_back.png") repeat-x scroll 0 0;
+    border: medium none;
+    float: left;
+    height: 526px;
+    width: 100%;
+}
+.header_center {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.header {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 960px;
+}
+.gallery {
+    background: rgba(0, 0, 0, 0) url("images/gallery_back2.png") no-repeat scroll left top;
+    float: left;
+    height: 400px;
+    margin: 0;
+    width: 960px;
+}
+
+#example {
+    height: 365px;
+    position: relative;
+    width: 960px;
+}
+
+.slides {
+    position: relative;
+}
+
+.rslides {
+    margin: 0 auto 40px;
+}
+.rslides img {
+  display: block;
+  height: 100%;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+#slider2{
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    margin: 0 auto;
+}
+
+.rslides_tabs {
+    list-style: none;
+    padding: 0;
+    background: rgba(0,0,0,.25);
+    box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+    -moz-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.3), inset 0 0 5px rgba(0,0,0,1.0);
+    font-size: 12px;
+    list-style: none;
+    margin: 0 auto 50px;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rslides_tabs li {
+    display: inline;
+    float: none;
+    margin-right: 1px;
+}
+
+.rslides_tabs a {
+    width: auto;
+    line-height: 20px;
+    padding: 9px 20px;
+    height: auto;
+    background: transparent;
+    display: inline;
+}
+
+.rslides_tabs li:first-child {
+    margin-left: 0;
+}
+
+.rslides_tabs .rslides_here a {
+    background: rgba(255,255,255,.1);
+    color: #fff;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font: 24px/50px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+    .callbacks_nav {
+        top: 47%;
+    }
+}

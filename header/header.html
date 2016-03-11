@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>test</title>
+        <script src="jquery.min.js"></script>
+        <script src="responsiveslides.min.js"></script>
+        <link rel="stylesheet" href="responsiveslides.css">
+        <link type="text/css" rel="stylesheet" href="style.css">
+        <script>
+            $(function () {
+                $("#slider2").responsiveSlides({
+                    auto: true,
+                    pager: true,
+                    speed: 400,
+                    maxwidth: 960,
+                    height: auto
+                });
+
+            });
+        </script>
+    </head>
+    <body>
+        <h1>Header</h1>
+        <div class="header_back">    
+            <div class="header_center">      
+                <div class="header">            
+                    <div class="gallery">         
+                        <div id="example">        
+                            <div class="slides">     
+                                <ul class="rslides1" id="slider2">
+                                    <li><a href="#"><img src="images/1.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="images/2.jpg" alt=""></a></li>
+                                    <li><a href="#"><img src="images/3.jpg" alt=""></a></li>
+                                </ul>
+
+                            </div>                    
+                        </div>                  
+                    </div>                              
+                </div>       
+            </div>    
+        </div>
+    </body>
+
+</html>
+
+
+

@@ -178,7 +178,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/header.jpg);
+    background: #252525;
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -187,10 +187,12 @@ header {
 }
 
 header .header-content {
+    background: rgba(0, 0, 0, 0) url("../img/header_back.png") repeat-x scroll 0 0;
+    border: medium none;
+    float: left;
+    width: 100%;
     position: relative;
     width: 100%;
-    padding: 100px 15px;
-    text-align: center;
 }
 
 header .header-content .header-content-inner h1 {
@@ -218,7 +220,7 @@ header .header-content .header-content-inner p {
 
     header .header-content {
         position: absolute;
-        top: 50%;
+        top: 48%;
         padding: 0 50px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
